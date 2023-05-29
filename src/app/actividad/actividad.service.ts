@@ -7,7 +7,7 @@ import { Actividad } from "./actividad";
   providedIn: 'root'
 })
 export class ActividadService {
-  private apiUrl = 'http://localhost:8080/actividad';
+  private apiUrl ='direct-basin-production.up.railway.app/';
 
   constructor(private http: HttpClient) { }
 
