@@ -2,7 +2,7 @@ import { Injectable } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
 import { Observable } from 'rxjs';
 
-const API_URL = 'direct-basin-production.up.railway.app/';
+const API_URL = 'https://direct-basin-production.up.railway.app/';
 
 @Injectable({
   providedIn: 'root'
